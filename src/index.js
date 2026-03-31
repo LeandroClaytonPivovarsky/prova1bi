@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { RouterProvider } from "react-router-dom";
 import AddressProvider from './providers/AddressProvider';
 import UserProvider from './providers/UserProvider';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import router from './routes';
 
